@@ -18,11 +18,15 @@ classBtn.addEventListener("click", function (e) {
   let obj = new Register(idValue, pwValue);
   if (confirm(`ID : ${obj.id}, Password : ${obj.pw} 가 맞습니까?`) == true) {
     result.push(obj);
+    let createList = document.createElement("li");
     result.forEach((a) => {
-      savedList.innerHTML = `Id : ${a.id}, Password : ${a.pw}`;
+      createList.innerHTML = `ID : ${a.id}, Password : ${a.pw}`;
     });
+    savedList.append(createList);
   } else {
     return;
   }
   return result;
 });
+
+console.log(result);
