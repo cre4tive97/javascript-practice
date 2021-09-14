@@ -1,6 +1,6 @@
 # javascript practice
 
-practicing javascript
+javascript recap
 
 ## comma.js - numeric comma function
 
