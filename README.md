@@ -14,3 +14,8 @@ javascript recap
 
 - JS에서의 this의 개념에 대해서 정리해보았다. 첫 블로그 포스팅도 했다.
   https://harry97.tistory.com/8
+
+## ArrayMethods.js - map(), filter(), reduce()
+
+- ES6에 나온 Array 메소드에 대해서 정리해보았다.
+  https://harry97.tistory.com/9
