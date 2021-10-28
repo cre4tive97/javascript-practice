@@ -19,3 +19,4 @@ javascript recap
 
 - ES6에 나온 Array 메소드에 대해서 정리해보았다.
   https://harry97.tistory.com/9
+
